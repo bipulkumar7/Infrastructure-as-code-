@@ -1,4 +1,4 @@
-
+```
 Manual settings for creating VPC with single public subnet:
 
 	IPv4 CIDR block: 10.0.0.0/16
@@ -21,11 +21,10 @@ After creating VPC check with following details:
 4. Check Route Tables. There are two route tables associated with the VPC. Select the custom route table (the Main column displays No), and then choose the Routes tab to display the route information in the details pane: 
 
 	-------------------------------------------------------
-
+```
+```
 You can explicitly associate a subnet with a particular route table. Otherwise, the subnet is implicitly associated with the main route table. 
-
-
-
+```
 
 source: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-getting-started.html#getting-started-create-vpc
 	https://docs.aws.amazon.com/vpc/latest/userguide/vpc-getting-started.html#getting-started-assign-eip
