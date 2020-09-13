@@ -1,14 +1,14 @@
 # variables.tf
 
 # 1   access_key
-variable "access_key" {
-  default = "AKIAZUM36BIDV72V6DMX"
-}
+# variable "access_key" {
+#  default = " "
+# }
 
 # 2  secret_key
-variable "secret_key" {
-  default = "23n62zuwus0cbXElT1wEjq11sRw6aumObB9LkGm9"
-}
+# variable "secret_key" {
+#  default = "23n62zuwus0cbXElT1wEjq11sRw6aumObB9LkGm9"
+# }
 
 # 3  region
 variable "region" {
